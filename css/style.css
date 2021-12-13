@@ -4,14 +4,9 @@
     background-color: darkgray;
     margin: 10px;
 }
-#cabecalho {
-    display: flex;
-    align-items: center;
-    background-color: gray;
-}
 
 .switch {
-    margin: 0px 0px 0px 500px;
+    margin: 0px 0px 0px 700px;
 }
 
 /* The switch - the box around the slider */
@@ -45,8 +40,8 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
+    height: 25px;
+    width: 25px;
     left: 4px;
     bottom: 4px;
     background-color: white;
@@ -55,24 +50,48 @@
   }
   
   input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #0c5b56;
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #0c5b56;
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(25px);
+    -ms-transform: translateX(25px);
+    transform: translateX(25px);
   }
   
   /* Rounded sliders */
   .slider.round {
-    border-radius: 34px;
+    border-radius: 25px;
   }
   
   .slider.round:before {
     border-radius: 50%;
   }
+
+.menu {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 0 10px 0 15px;
+}
+
+.menu:hover {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 21px;
+}
+
+.btn-entrar {
+    float: right;
+    font-size: 20px;
+}
+
+#cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
